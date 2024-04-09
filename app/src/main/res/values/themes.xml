@@ -1,0 +1,19 @@
+    <resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PokemonsGenerator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/schoolbell</item>
+    </style>
+
+    <style name="Theme.PokemonsGenerator" parent="Base.Theme.PokemonsGenerator" />
+        <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline1">
+            <item name="android:textSize">24sp</item>
+            <item name="android:textColor">@color/blue</item>
+            <item name="android:textStyle">bold</item>
+        </style>
+        <style name="AppTheme.Button" parent="Widget.Material3.Button">
+            <item name="android:backgroundTint">@color/red</item>
+            <item name="android:textColor">@color/white</item>
+        </style>
+</resources>
